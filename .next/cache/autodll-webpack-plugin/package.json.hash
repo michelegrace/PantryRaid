@@ -1,0 +1,1 @@
+{"name":"pantry-next","version":"1.0.0","description":"","main":"index.js","scripts":{"dev":"next","build":"next build","start":"next start"},"keywords":[],"author":"","license":"ISC","dependencies":{"emotion":"^10.0.27","isomorphic-unfetch":"^3.0.0","next":"^9.3.4","react":"^16.13.1","react-dom":"^16.13.1"},"readme":"ERROR: No README data found!","_id":"pantry-next@1.0.0"}
