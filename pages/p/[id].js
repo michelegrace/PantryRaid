@@ -2,8 +2,6 @@ import { useRouter } from 'next/router';
 import Layout from '../../comps/Layout';
 import fetch from 'isomorphic-unfetch';
 
-var apiKey = "e4dae24ad2ad4d6cb33e377041aa1e0b";
-
 const Recipe = props => (
   <Layout>
     <div className="row">

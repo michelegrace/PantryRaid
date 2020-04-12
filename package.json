@@ -12,9 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "a11y-react-emoji": "^1.1.2",
     "emotion": "^10.0.27",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.3.4",
+    "next-fonts": "^1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

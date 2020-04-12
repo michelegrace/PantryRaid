@@ -6,7 +6,7 @@ const linkStyle = {
 
 const h1Style = {
   fontSize: '5rem',
-  color: '#DB7F67'
+  color: '#4B543B'
 }
 
 const Header = () => (

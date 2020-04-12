@@ -1,5 +1,5 @@
 import Header from '../comps/Header';
-
+import Footer from '../comps/Footer';
 
 const layoutStyle = {
     margin: 0,
@@ -11,6 +11,7 @@ const Layout = props => (
         <div className="row">
             <Header />
             {props.children}
+            <Footer />
         </div>
         <style jsx global>{`
         html {
@@ -22,6 +23,12 @@ const Layout = props => (
             margin: 0;
             color: #0A0908;
         }
+        *, p, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
         .container {
             width: 100%;
             max-width: 1560px;
@@ -29,7 +36,7 @@ const Layout = props => (
         }
         .row {
             display: flex;
-            flex-direction:row;
+            flex-direction:column;
             flex-wrap: wrap;
         }
         .col {
